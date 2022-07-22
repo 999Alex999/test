@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тесты для Арихи</title>
+</head>
+<body>
+    <h1>Тесты для Аришки</h1>
+    <p>Пример: 6+9 = </p> <input type="text" id="odin">
+    <P>Пример: 7+15 = </P> <input type="text" id="dva">
+    <p>Пример: 8+30 = </p> <input type="text" id="tri">
+    <br> <br>
+
+ <button onclick="test()">ok</button>
+ <script>
+
+    
+function test()
+ { 
+    var score=0;
+    var x1;
+    var x2;
+    var x3;
+    var x1 = document.getElementById("odin").value;
+    var x2 = document.getElementById("dva").value;
+    var x3 = document.getElementById("tri").value;
+
+    if ( x1==15 ) 
+    {
+        score=score+10;
+    }
+    if(x2==22) 
+    {
+        score=score+10;
+    }
+    if(x3==38) 
+    {
+        score=score+10;
+    }
+       
+    document.write(score);
+    
+}
+
+
+
+
+
+
+</script>
+</body>
+</html>
